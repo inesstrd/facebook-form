@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Formulário de Registo</title>
         <link rel="stylesheet" href="style.css">
+        <script src="app.js" defer></script>
     </head>
     <body>
         <main>
@@ -18,17 +19,27 @@
                     <input type="text" name="email_phone" placeholder="Número de Telefone ou Email" aria-label="Número de Telefone ou Email" required>
                 </div>
                 <div class="large-input">
-                    <input type="password" name="password" placeholder="palavra-pass nova" aria-label="Palavra Pass" required>
+                    <input type="password" name="password" placeholder="Palavra-Passe Nova" aria-label="Palavra Passe" required>
                 </div>
                 <div class="birth-date">
                     <fieldset>
                         <legend>Data de Nascimento</legend>
-                        <select name="birth_day" aria-label="Dia">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
+                        <select name="birth_day" aria-label="Dia"></select>
+                        <select name="birth_month" aria-label="Mès">
+                            <option value="1">Jan</option>
+                            <option value="2">Fev</option>
+                            <option value="3">Mar</option>
+                            <option value="4">Abr</option>
+                            <option value="5">Mai</option>
+                            <option value="6">Jun</option>
+                            <option value="7">Jul</option>
+                            <option value="8">Ago</option>
+                            <option value="9">Set</option>
+                            <option value="10">Out</option>
+                            <option value="11">Nov</option>
+                            <option value="12">Dez</option>
                         </select>
+                        <select name="bith_year" aria-label="Ano"></select>
                     </fieldset>
                 </div>
                 <div class="form-submit">
