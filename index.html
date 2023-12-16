@@ -10,9 +10,26 @@
             <h1>Regista-te</h1>
             <h2>É rápido e fácil</h2>
             <form method="post" action="index.html">
-                <div>
+                <div class="double-input">
                     <input type="text" name="first_name"placeholder="Nome Próprio" aria-label="Nome Próprio" required>
                     <input type="text" name="last_name" placeholder="Apelido" aria-label="Apelido" required>
+                </div>
+                <div class="large-input">
+                    <input type="text" name="email_phone" placeholder="Número de Telefone ou Email" aria-label="Número de Telefone ou Email" required>
+                </div>
+                <div class="large-input">
+                    <input type="password" name="password" placeholder="palavra-pass nova" aria-label="Palavra Pass" required>
+                </div>
+                <div class="birth-date">
+                    <fieldset>
+                        <legend>Data de Nascimento</legend>
+                        <select name="birth_day" aria-label="Dia">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </fieldset>
                 </div>
                 <div class="form-submit">
                     <button type="submit" name="send">Regista-te</button>

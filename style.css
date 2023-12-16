@@ -31,6 +31,21 @@ form {
     text-align: center;
 }
 
+.double-input input {
+    width: 46.8%
+}
+ .large-input {
+    width: 97%;
+ }
+
+ .double.input input, .large.input input{
+    padding: 6px 8px;
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    margin-bottom: 6px;
+ }
+
 .form-submit button {
     background-color: green;
     color: #FFF;
@@ -38,3 +53,4 @@ form {
     border: none;
     border-radius: 5px;
 }
+
