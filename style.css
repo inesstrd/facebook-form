@@ -71,6 +71,17 @@ form {
     margin-right: 10px;
 }
 
+.gender-selection select {
+    width: 100%;
+    margin: 8px 0;
+}
+
+.gender-selection p {
+    color: #606770;
+    margin: 0 0 8px 0;
+    font-size: 0.7rem;
+}
+
  legend {
     font-size: 0.8rem;
 }

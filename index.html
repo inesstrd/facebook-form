@@ -61,6 +61,18 @@
                             <input type="radio" name="gender" value="P" required>
                         </label>
                     </fieldset>
+                    <div>
+                        <select name="pronoun" aria-label="Pronome">
+                            <option value="" disabled selected>Seleciona o teu pronome</option>
+                            <option value="1">Ela</option>
+                            <option value="2">Ele</option>
+                            <option value="6">Neutro</option>
+                        </select>
+                    </div>
+                    <p>O teu pronome é visível para todos.</p>
+                    <div class="large-input">
+                        <input type="text" name="custom_gender" placeholder="Género (opcional)" aria-label="Género Personalizado">
+                    </div>
                 </div>
                 <div class="form-submit">
                     <button type="submit" name="send">Regista-te</button>
