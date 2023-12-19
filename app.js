@@ -1,3 +1,5 @@
+const genderAddon = document.getElementById("gender-addon");
+const genderRadios = document.querySelectorAll(".gender-selection fieldset input");
 const selects = document.querySelectorAll("form select");
 
 for(let i = 1; i <= 31; i++) {
@@ -11,3 +13,14 @@ for(let i = 2023; i >= 1905; i--) {
 
     selects[2].appendChild(option).textContent = i;
 }
+
+for(let radio of genderRadios) {
+    radio.addEventListener("change", function() {
+        genderAddon.classList.add("hide");
+
+        if(radio.value === "P") {
+            genderAddon.classList.remove("hide");
+        }
+    });
+}
+

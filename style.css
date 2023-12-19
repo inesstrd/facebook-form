@@ -9,6 +9,10 @@ main {
     padding: 10px;
 }
 
+.hide {
+    display: none;
+}
+
 .logo {
     width: 15vw;
 }
